@@ -1,29 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-/*@import '~https://fonts.googleleapis.com/icon?family=Material+Icons';*/
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
-
-
-
-
-* {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothig: grayscale;
-}
-body {
-
-    margin:0;
-    font-family: Roboto, sans-serif;
-}
-
-
 html, body{
-   
     padding: 30px;
-}
-
-md-grid-list {
-  max-width: 1403px;
-
-  margin: 16px;
 }

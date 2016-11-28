@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-xs-12">
+    <ul class="list-group" *ngIf="collectedItems.length > 0">
+      <li class="list-group-item" *ngFor="let item of collectedItems">
+        <span class="badge">{{ item.type }}</span>
+        <button class="btn btn-danger" (click)="onRemoveFromCollection(item)">Remove</button>&nbsp;{{ item.description }}
+      </li>
+      </ul>
+      <h3 *ngIf="collectedItems.length === 0">Add Eagles Fan Gear t your cart before they start losing</h3>
+    
+  </div>
+</div>

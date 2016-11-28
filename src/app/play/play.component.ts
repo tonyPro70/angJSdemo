@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayComponent implements OnInit {
 
-  constructor() { }
+  
 
   ngOnInit() {
-  }
+    
+    }
+
 
 }
